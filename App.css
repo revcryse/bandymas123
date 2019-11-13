@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+}
+
+.image {
+  position: relative;
+  width: 100%;
+  margin-top: 1.2em;
+  text-align: center;
+}
+
+.image > img {
+  width: 95%;
+  max-width: 40em;
+  max-height: 40em;
+  margin-bottom: 1.5em;
+  background: cover;
+  background-repeat: no-repeat;
+}
+
+.image > h2 {
+  position: absolute;
+  max-width: 36em;
+  text-align: center;
+  left: 49%;
+  transform: translateX(-50%);
+  margin: 0.3em 0;
+  padding: 0 0px;
+  font-size: 29px;
+  font-family: impact, sans-serif;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+}
+
+.image > .bottom {
+  bottom: 1.8em;
+}
+
+
+.text-form {
+  width: 90%;
+  margin: 1.4em 0em 1em 1.4em;
+  display: inline-block;
+  justify-content: space-between;
+
+}
+
+.text-form > input {
+  border: 1.5px solid;
+  border-radius: 5px;
+  margin: auto;
+  display: block;
+  width: 40%;
+  min-width: 20em;
+  height: 3em;
+
+}
+
+.text-form > input::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  font-family: VT323, monospace;
+  font-size: 1.3em;
+  text-align: left;
+  padding-left: 5px;
+}
+.text-form > input::-moz-placeholder {
+  /* Firefox 19+ */
+  font-family: VT323, monospace;
+  font-size: 25px;
+  text-align: left;
+}
+.text-form > input:-ms-input-placeholder {
+  /* IE 10+ */
+  font-family: VT323, monospace;
+  font-size: 25px;
+  text-align: left;
+}
+.text-form > input:-moz-placeholder {
+  /* Firefox 18- */
+  font-family: VT323, monospace;
+  font-size: 25px;
+  text-align: left;
+}
